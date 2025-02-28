@@ -1,6 +1,9 @@
 docker-compose up -d
 docker-compose down
-ื
+
 dbeaver จัดการฐานข้อมูล 
  port 3306
  password: rootpassword
+
+postman http://localhost:3000/api/users
+swagger http://localhost:3000/api-docs
